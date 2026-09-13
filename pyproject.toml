@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dd-loop-upper-bound-alpha1"
+version = "2.0.0a1"
+description = "Strict optimistic upper-bound model for D-D fusion feedback"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "N. N. Zobnin" }]
+dependencies = []
+
+[project.scripts]
+dd-loop-upper-bound-alpha1 = "dd_loop_upper_bound_alpha1:main"
+
+[tool.setuptools]
+py-modules = ["dd_loop_upper_bound_alpha1"]
+
